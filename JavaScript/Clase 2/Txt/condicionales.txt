@@ -1,0 +1,56 @@
+-Ejercicio 1
+
+a-
+let nombre1 = "Joa"
+let nombre2 = "joa"
+
+if (nombre1=nombre2) {
+    alert (`Hola`)
+}
+
+b-let nombre1 = "Joa"
+let nombre2 = "Marti"
+
+if (nombre1=nombre2) {
+    alert (`Hola`)
+}
+
+c-
+let estado = prompt (`¿Cómo estas?`);
+
+if (estado="triste") { 
+    console.log("Fuerzas bro"); 
+}
+
+d-let contraseña = prompt (`¿Cúal es el número secreto?`);
+let numero = "13"
+
+if (contraseña===numero) {}
+    else {
+        alert ("Tas re equivocado man") ; }
+
+e-
+let contraseña = prompt("Ingrese la contraseña")
+
+if (contraseña="YSY A") {
+    window.location = "http://www.google.com"
+
+}
+
+f-
+let numero = prompt("Ingrese un número")
+
+if (numero % 2 == 0) {
+    alert ("Es par")
+
+}
+
+else {
+    alert ("Es impar")
+}
+
+
+
+
+
+

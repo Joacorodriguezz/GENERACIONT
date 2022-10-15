@@ -1,0 +1,22 @@
+-Ejercicio 1 
+
+let edad = 17
+let edadmaxima = 80
+let doritos = "Doritos"
+let snackPorDia = 4
+let sobrevir = (365*[edadmaxima-edad]*snackPorDia)
+
+ calculoSnacks = alert  (`Necesitarás ${sobrevir} snacks para que te alcancen hasta los ${edadmaxima} años.`)
+
+ let precio = 100*sobrevir
+
+gastos = alert (`Vas a gastar $${precio}`)
+
+-Ejercicio 2 
+
+let dias = 15
+let presupuesto = 15000
+let comida = 4*dias
+let gastoDiario = presupuesto/comida
+
+alert (`Podés gastar ${gastoDiario} en cada comida para que te alcance la plata durante los ${dias} días de viaje`)

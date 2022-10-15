@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
+    <link rel="icon" href ="logo.png">
+    <link rel="stylesheet" href="cstyle.css">
 </head>
 <body>
+    <a href="index.html">Volver atras</a>
+    
+    <div class="formulario">
+        <form>
+            <p><label>Nombre: </label></p>
+            <p><input type="text" name="nombre" required></p>
+            <p> <label>Email:</label></p>
+            <p> <input type="email" name="email" required></p>
+            
+            <p><label for="Estado Civil">Estado Civil:</label></p>
+            <p><select name="Estado Civil" id="Estado Civil">
+                <option value="soltero">Soltero/a</option>
+                <option value="casado">Casado/a</option>
+                <option value="divorciado">Divorciado/a</option>
+                </select></p>
+    
+            
+            <label> Deseo recibir el Newsletter
+                <input name="newsletter" type="checkbox">
+            </label>
+           
+            
+            
+            <p><label for="comentarios">Comentarios:</label></p>
+                <textarea id="comentarios" ></textarea>
+            </p>
+    
+            <p>
+                <input type="reset" name="Borrar">
+                <input type="submit" name="Enviar">
+            </p>
+     
+    
+        </div>
+        
+      </form>
     
 </body>
+    
 </html>

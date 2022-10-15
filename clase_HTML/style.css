@@ -1,0 +1,81 @@
+ 
+ * {margin: 0;
+
+}
+
+header {
+   background-color: rgb(247, 247, 247);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 20px;
+    text-align: center;
+    border-top: #de6214 solid 4px;
+
+        }
+body {background-color: #004A99;}
+
+.menu { display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+        list-style: none;  
+}
+.menu ul { display:inline-table; 
+        list-style: none;
+        }
+
+.menu li { display:inline;
+        list-style: none; }
+
+.menu {background-color: orange;
+        height: 50px;
+        
+        }
+          
+.contacto {font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+           font: bold;
+           text-decoration: none;
+           text-transform: uppercase;
+           padding-right: 21PX;
+        
+
+                }
+.quienessomos {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                text-decoration: none;
+                text-transform: uppercase;
+                }
+
+
+
+
+
+footer {padding-top: 40%;
+        text-align: center
+      
+       
+        }
+
+section h1   {margin-top: 20px;
+                margin-left:5px;
+                background-color:#e46b26;
+                border:#de6214;
+                border-radius: 10px;
+                margin-right: 82.5%;
+                font-style: italic;
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size: 20px;
+                letter-spacing: 3px;
+                text-align: center;
+                color: white;
+        }
+
+section p {background-color: rgb(255, 255, 255);
+        margin-right: 500px;
+        margin-left: 30px ;
+        margin-top: 10px;
+        font-family:Georgia, 'Times New Roman', Times, serif
+        
+                }
+
+footer h3 {background-color:orange; }
+
+header img {height: 90px;}

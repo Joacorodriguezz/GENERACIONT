@@ -1,0 +1,20 @@
+-Ejercicio 1
+
+let texto = prompt ("Ingrese un texto breve")
+
+console.log(texto.length)
+
+-Ejercicio 2
+
+let edad = prompt("¿Cuál es su edad?")
+
+alert ("Usted vivió " + edad * 365 + " días")
+
+-Ejercicio 3
+
+let num1 = prompt ("Inserte un numero")
+let num2 = prompt ("Inserte otro numero")
+
+resultado = parseInt (num1)+ parseInt (num2)
+
+console.log(resultado)

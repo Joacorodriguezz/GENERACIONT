@@ -1,0 +1,29 @@
+Ejercicio 1
+
+a- 
+let num = -10
+
+while (num<=19){
+    console.log(num)
+    num++
+}
+
+
+b-
+let num = 10
+
+while (num <= 49 ){
+
+    console.log(num)
+    num+=2
+}
+
+
+c-
+-let num = 300
+
+while (num <= 333 )
+{  console.log(num+=1 % 2 !=0)
+    num++
+
+}

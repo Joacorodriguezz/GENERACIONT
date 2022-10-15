@@ -1,0 +1,31 @@
+-Ejercicio 1
+
+alert ("Bienvenido") 
+
+let nombre = prompt ("¿Como te llamas?")
+
+alert ("Hola "+ nombre )
+
+let edad = prompt ("¿Cual es tu edad?")
+
+alert ("Increible! Tienes "+ edad + " años")
+
+alert ("Completaste el ejercicio,sabemos que te llamas " + nombre + " y tienes " + edad + "años" )
+
+
+-Ejercicio 2
+
+1-
+let nombre = "Joaquin Eduardo Rodriguez"
+let edad = "17 años"
+let cumpleaños = "7 de Abril"
+let ciudad = "La Plata"
+let ocupacion = "Ingeniero Informatico"
+let pasatiempos = "Jugar al voley" 
+
+
+console.log ("Hola soy " + nombre + " tengo " + edad + ",cumplo el " + cumpleaños + " y vivo en " +  ciudad + ".Voy a trabajar de " + ocupacion + " y en mi tiempo libre voy a " + pasatiempos)
+
+2- let nombre = "Joaquin Eduardo Rodriguez"; edad = "17 años" ; cumpleaños = "7 de Abril" ; ocupacion = "Ingeniero Informatico" ; pasatiempos = "Jugar al voley" 
+
+ 

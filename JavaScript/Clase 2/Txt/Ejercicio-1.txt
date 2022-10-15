@@ -1,0 +1,49 @@
+-Ejercicio 1
+a-
+let x="hola"
+let y="hola"
+
+console.log(x==y);
+
+b-
+let x="hola"
+let y="Hola"
+
+console.log(x===y);
+
+c- 
+let x=3
+let y="3"
+
+console.log(x==y);
+
+d- 
+let x=3
+let y="3"
+
+console.log(x===y);
+
+e-
+let edad = parseInt (prompt ("Ingrese su edad."))
+
+if (edad<0){
+    alert("Su edad no es válida")
+}
+
+else if (edad<18){
+    alert("No puedes pasar al bar")
+}
+
+else if (edad<21){
+    alert("Puede pasar al bar pero no puede tomar alcohol.")
+}
+else if (edad>21){
+    alert("Felicitaciones por ser mayor de edad.Bienvenido!")
+}
+else {
+    alert("Puede pasar al bar y tomar alcohol.")
+}
+if (edad % 2 != 0 && edad>0 ) {
+    alert ("¿Sabías que tu edad es impar?")
+
+}

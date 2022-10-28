@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App {
+    text-align: center;
+}
+
+.userSecction {
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+}

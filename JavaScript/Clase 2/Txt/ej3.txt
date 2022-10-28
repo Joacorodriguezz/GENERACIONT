@@ -1,0 +1,39 @@
+-Ejercicios
+
+a-
+function triplicador(numero){
+    return numero*3
+}
+
+triplicador()
+
+b-
+function multiplicador(num1,num2){
+    return num1,num2;
+}
+
+multiplicador()
+
+c-
+function division(num1,num2){
+    return num1/num2;
+}
+
+division()
+
+d-
+function resto(num1,num2){
+    return num1-num2;
+}
+resto()
+
+e-
+const cuenta = () => {
+    let a=5*3;
+    a*=12;
+    a/=12;
+    a%=3
+}
+cuenta()
+
+f-

@@ -1,0 +1,18 @@
+body{
+    background-image: url("https://i.gifer.com/xK.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+  
+}
+.container{
+    background-color: rgba(255, 251, 251, 0.623) ;
+    margin-left: 40%;
+    margin-right: 40%;;
+    margin-top: 20%;
+    
+}
+
+
+

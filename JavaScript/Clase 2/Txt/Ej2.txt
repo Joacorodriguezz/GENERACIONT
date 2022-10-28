@@ -1,4 +1,4 @@
-Ejercicio 1
+Ejercicios
 
 a- 
 let num = -10
@@ -27,3 +27,53 @@ while (num <= 333 )
     num++
 
 }
+
+d-
+for (let num=5;num<=50;num++) {
+    if(num % 3 == 0 && num % 5 == 0){
+        console.log(num);
+    }
+}
+
+e-
+let mesa = 1
+
+while (mesa <=20){
+    alert ("Bienvenido a mi café! Su mesa es la"+ mesa)
+    mesa++
+}
+
+f-
+let numero = parseInt (prompt ("Ingrese un número."))
+if (numero <=0){}
+if (numero % 2 == 0){
+    alert("Es un numero par")
+}
+
+else{
+    alert("Es un numero impar")
+}
+
+g-
+for (let num=1;num<=100;num++) {
+    if(num % 3 == 0 && num % 5 == 0){
+        console.log(`Fizz Buzz`);
+    }
+    else if(num % 3 == 0) {
+        console.log(`Fizz`);
+    }
+    else if(num % 5 == 0) {
+        console.log(`Buzz`);
+    }
+}
+
+
+h-
+let pregunta = prompt(`¿Ya merito llegamos?`)
+
+if (pregunta.toLowerCase() =="si"){
+    alert(`Bienvenido a Muy Muy Lejano`)
+}
+else {prompt(`¿Ya merito llegamos?`)}
+
+g-
